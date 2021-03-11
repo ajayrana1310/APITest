@@ -25,8 +25,8 @@ public class AccountTriggerHandler {
             for (Account a : trgNew) {
                 if (a.name.contains('Bank') & a.Account_Email__c != null) { // If account Name matches Bank, send welcome email
                     sendemail(a.Account_Email__c);
+                }
             }
-        }
         }
     }
     public void OnAfterUpdate()
