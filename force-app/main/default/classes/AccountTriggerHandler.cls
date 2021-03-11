@@ -65,7 +65,7 @@ public class AccountTriggerHandler {
             System.debug('There is an issue with the callout' + e);
         }
         catch (Exception e) {
-            System.debug('There is an issue with the callout' + e);
+            System.debug('There is an issue with the email operation' + e);
         } 
     }
 }
